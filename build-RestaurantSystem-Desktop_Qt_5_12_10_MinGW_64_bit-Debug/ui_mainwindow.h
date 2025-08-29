@@ -219,7 +219,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        actionnew_file->setText(QApplication::translate("MainWindow", "\346\226\260\345\273\272", nullptr));
+        actionnew_file->setText(QApplication::translate("MainWindow", "\345\274\200\345\247\213\346\226\260\350\256\242\345\215\225", nullptr));
         actionexit->setText(QApplication::translate("MainWindow", "\351\200\200\345\207\272", nullptr));
         actionview_history->setText(QApplication::translate("MainWindow", "\346\237\245\347\234\213\345\216\206\345\217\262\350\256\242\345\215\225", nullptr));
         actionview_today->setText(QApplication::translate("MainWindow", "\346\237\245\347\234\213\344\273\212\346\227\245\350\256\242\345\215\225", nullptr));

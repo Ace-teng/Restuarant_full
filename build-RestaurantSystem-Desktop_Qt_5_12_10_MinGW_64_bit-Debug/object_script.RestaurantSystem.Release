@@ -1,0 +1,10 @@
+release/dineinorder.o
+release/dish.o
+release/main.o
+release/mainwindow.o
+release/order.o
+release/ordermanager.o
+release/takeoutorder.o
+release/historymanager.o
+release/qrc_images.o
+release/moc_mainwindow.o

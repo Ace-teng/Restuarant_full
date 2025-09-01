@@ -1,0 +1,10 @@
+debug/dineinorder.o
+debug/dish.o
+debug/main.o
+debug/mainwindow.o
+debug/order.o
+debug/ordermanager.o
+debug/takeoutorder.o
+debug/historymanager.o
+debug/qrc_images.o
+debug/moc_mainwindow.o

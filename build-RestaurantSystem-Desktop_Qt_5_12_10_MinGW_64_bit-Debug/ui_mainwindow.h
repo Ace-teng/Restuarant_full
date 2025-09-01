@@ -71,7 +71,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1045, 536);
+        MainWindow->resize(903, 896);
         actionnew_file = new QAction(MainWindow);
         actionnew_file->setObjectName(QString::fromUtf8("actionnew_file"));
         actionexit = new QAction(MainWindow);
@@ -94,7 +94,7 @@ public:
         groupBox->setSizePolicy(sizePolicy);
         listWidget_Menu = new QListWidget(groupBox);
         listWidget_Menu->setObjectName(QString::fromUtf8("listWidget_Menu"));
-        listWidget_Menu->setGeometry(QRect(0, 20, 381, 451));
+        listWidget_Menu->setGeometry(QRect(0, 20, 381, 821));
         listWidget_Menu->setMinimumSize(QSize(200, 0));
         widget_OrderArea_2 = new QWidget(centralwidget);
         widget_OrderArea_2->setObjectName(QString::fromUtf8("widget_OrderArea_2"));
@@ -166,9 +166,9 @@ public:
         label_Distance->setGeometry(QRect(20, 20, 54, 31));
         doubleSpinBox_Distance = new QDoubleSpinBox(widget_Distance);
         doubleSpinBox_Distance->setObjectName(QString::fromUtf8("doubleSpinBox_Distance"));
-        doubleSpinBox_Distance->setGeometry(QRect(90, 20, 70, 30));
-        doubleSpinBox_Distance->setMinimumSize(QSize(20, 20));
-        doubleSpinBox_Distance->setMaximumSize(QSize(70, 30));
+        doubleSpinBox_Distance->setGeometry(QRect(90, 20, 120, 35));
+        doubleSpinBox_Distance->setMinimumSize(QSize(80, 25));
+        doubleSpinBox_Distance->setMaximumSize(QSize(150, 40));
         doubleSpinBox_Distance->setSingleStep(0.500000000000000);
         doubleSpinBox_Distance->setValue(3.000000000000000);
         widget_Submit = new QWidget(widget_OrderArea_2);
@@ -190,7 +190,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1045, 21));
+        menubar->setGeometry(QRect(0, 0, 903, 21));
         menu = new QMenu(menubar);
         menu->setObjectName(QString::fromUtf8("menu"));
         menu_2 = new QMenu(menubar);

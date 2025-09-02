@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[18];
-    char stringdata0[306];
+    QByteArrayData data[17];
+    char stringdata0[289];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -46,9 +46,8 @@ QT_MOC_LITERAL(11, 181, 18), // "onNewFileTriggered"
 QT_MOC_LITERAL(12, 200, 15), // "onExitTriggered"
 QT_MOC_LITERAL(13, 216, 17), // "onViewTodayDineIn"
 QT_MOC_LITERAL(14, 234, 18), // "onViewTodayTakeOut"
-QT_MOC_LITERAL(15, 253, 16), // "onTestBlurEffect"
-QT_MOC_LITERAL(16, 270, 16), // "onAboutTriggered"
-QT_MOC_LITERAL(17, 287, 18) // "onToggleFullscreen"
+QT_MOC_LITERAL(15, 253, 16), // "onAboutTriggered"
+QT_MOC_LITERAL(16, 270, 18) // "onToggleFullscreen"
 
     },
     "MainWindow\0onAddDishClicked\0\0"
@@ -57,8 +56,8 @@ QT_MOC_LITERAL(17, 287, 18) // "onToggleFullscreen"
     "item\0onOrderItemChanged\0onViewTodayTriggered\0"
     "onViewHistoryTriggered\0onNewFileTriggered\0"
     "onExitTriggered\0onViewTodayDineIn\0"
-    "onViewTodayTakeOut\0onTestBlurEffect\0"
-    "onAboutTriggered\0onToggleFullscreen"
+    "onViewTodayTakeOut\0onAboutTriggered\0"
+    "onToggleFullscreen"
 };
 #undef QT_MOC_LITERAL
 
@@ -68,7 +67,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      14,   14, // methods
+      13,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -76,20 +75,19 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   84,    2, 0x08 /* Private */,
-       3,    0,   85,    2, 0x08 /* Private */,
-       4,    0,   86,    2, 0x08 /* Private */,
-       5,    1,   87,    2, 0x08 /* Private */,
-       8,    1,   90,    2, 0x08 /* Private */,
-       9,    0,   93,    2, 0x08 /* Private */,
-      10,    0,   94,    2, 0x08 /* Private */,
-      11,    0,   95,    2, 0x08 /* Private */,
-      12,    0,   96,    2, 0x08 /* Private */,
-      13,    0,   97,    2, 0x08 /* Private */,
-      14,    0,   98,    2, 0x08 /* Private */,
-      15,    0,   99,    2, 0x08 /* Private */,
-      16,    0,  100,    2, 0x08 /* Private */,
-      17,    0,  101,    2, 0x08 /* Private */,
+       1,    0,   79,    2, 0x08 /* Private */,
+       3,    0,   80,    2, 0x08 /* Private */,
+       4,    0,   81,    2, 0x08 /* Private */,
+       5,    1,   82,    2, 0x08 /* Private */,
+       8,    1,   85,    2, 0x08 /* Private */,
+       9,    0,   88,    2, 0x08 /* Private */,
+      10,    0,   89,    2, 0x08 /* Private */,
+      11,    0,   90,    2, 0x08 /* Private */,
+      12,    0,   91,    2, 0x08 /* Private */,
+      13,    0,   92,    2, 0x08 /* Private */,
+      14,    0,   93,    2, 0x08 /* Private */,
+      15,    0,   94,    2, 0x08 /* Private */,
+      16,    0,   95,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -97,7 +95,6 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void, 0x80000000 | 6,    7,
     QMetaType::Void, 0x80000000 | 6,    7,
-    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -127,9 +124,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 8: _t->onExitTriggered(); break;
         case 9: _t->onViewTodayDineIn(); break;
         case 10: _t->onViewTodayTakeOut(); break;
-        case 11: _t->onTestBlurEffect(); break;
-        case 12: _t->onAboutTriggered(); break;
-        case 13: _t->onToggleFullscreen(); break;
+        case 11: _t->onAboutTriggered(); break;
+        case 12: _t->onToggleFullscreen(); break;
         default: ;
         }
     }
@@ -164,13 +160,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 14)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 14;
+        _id -= 13;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 14)
+        if (_id < 13)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 14;
+        _id -= 13;
     }
     return _id;
 }

@@ -1,5 +1,14 @@
-Lenovo@LAPTOP-EO9V7QAB MINGW64 /e/Vscodefiles (C++)
-$ export HTTPS_PROXY=http://127.0.0.1:10808
 
-Lenovo@LAPTOP-EO9V7QAB MINGW64 /e/Vscodefiles (C++)
-$ export HTTP_PROXY=http://127.0.0.1:10808
+export HTTPS_PROXY=http://127.0.0.1:10808
+
+export HTTP_PROXY=http://127.0.0.1:10808
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/yourusername/yourrepository.git
+
+git push -u origin main
